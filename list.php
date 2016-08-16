@@ -23,9 +23,9 @@ for ($i=1; $i <= 10; $i++) {
 foreach ($list_dir as $value) {
     if (!in_array($value,array(".",".."))) {
         if(is_dir($full_path . $value)) {
-            echo "<a href='". $get_url . $value . "'>[". $value ."]</a>";
+            echo "<a href='". $get_url . $value . "'>[ ". $value ." ]</a>";
         } else {
-            echo $value;
+            echo "<a href='". $full_path . $value . "'>". $value ."</a>";
         }
         echo "\n<br/>";
     }
