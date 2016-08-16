@@ -55,8 +55,8 @@ if(isset($_FILES['file'])){
           <input type="file" name="file" /> Directory
           <input type="text" name="directory" />
           <input type="submit" />
-
         </form>
+
         1. Upload di root : Pilih file tapi kosongkan Directory
         <br/> 2. Upload di direktori : Pilih file dan isi Directory
         <br/> 3. Buat direktori : Jangan memilih file kemudian isi Directory
